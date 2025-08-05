@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.tflite
+*.pb
+*.log
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# DVC
+.dvc/
+*.dvc
+
+# Data files
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# Logs & outputs
+logs/
+*.log
+*.out
+*.err
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Models & Checkpoints
+models/
+checkpoints/
+saved_models/
+
+# HuggingFace
+.cache/
+*.safetensors
+hub/
+
+# Weights & Biases
+wandb/
+
+# Ignore large result files or debug dumps
+*.npz
+*.npy
+*.mat
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Other
+__results__/
+
